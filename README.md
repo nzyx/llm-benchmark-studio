@@ -10,6 +10,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
 - 前端：React + TypeScript + Vite
 - 后端：Python + FastAPI
@@ -1129,5 +1130,15 @@ reasoning、正文 0 字符），decode 测的是「思考速度」，质量测�
   低于 prompt tokens 就是复用了缓存的硬证据）。
 - **mock 保真度**：mock 之前忽略 `stream: false`，一律回 SSE，
   非流式路径（能力探测用）从来没被真正测过。现在两种都支持。
+
+---
+
+## License
+
+[Apache License 2.0](LICENSE) — 可自由使用、修改、分发（含商业用途），
+需保留版权与许可声明，并按第 4(d) 条处理 NOTICE（本项目暂无 NOTICE 文件）。
+
+Copyright 2026 nzyx
+
 
 
