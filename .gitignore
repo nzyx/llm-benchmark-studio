@@ -1,0 +1,36 @@
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# node
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+frontend/.render-check.cjs
+npm-debug.log*
+
+# data & local artifacts
+data/
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+
+# agent workspace (local working memory / notes, not part of the project)
+.workbuddy/
+
+# scratch (ad-hoc diagnostic scripts, all prefixed with an underscore)
+_*.py
+_*.log
+_*.txt
+_*.out
+_*.tmp
+
+# editors / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
